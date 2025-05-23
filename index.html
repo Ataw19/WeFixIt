@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WeFixIt</title>
+    <script
+      src="https://kit.fontawesome.com/d40e9c9496.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-    />
   </head>
   <body>
     <!--Nav Bar-->
@@ -50,7 +50,7 @@
           Tentang <span class="text-purple-500">Kami</span>
         </h2>
         <button
-          class="text-purple-500 rounded-lg bg-purple-100 px-3 py-1 hover:text-purple-800 hover:bg-purple-200"
+          class="text-purple-500 rounded-lg bg-purple-100 px-4 py-2 hover:text-purple-800 hover:bg-purple-200"
         >
           View More
         </button>
@@ -100,12 +100,12 @@
       <div class="flex flex-wrap mb-5">
         <h2 class="font-bold text-xl flex-grow">Artikel</h2>
         <button
-          class="text-purple-500 rounded-lg bg-purple-100 px-3 py-1 hover:text-purple-800 hover:bg-purple-200"
+          class="text-purple-500 rounded-lg bg-purple-100 px-4 py-2 hover:text-purple-800 hover:bg-purple-200"
         >
           View More
         </button>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 w-full">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 w-full m-auto">
         <div
           class="flex flex-col h-full bg-white p-4 border border-gray-200 rounded-lg shadow-md"
         >
@@ -160,16 +160,65 @@
       </div>
     </section>
 
-    <section class="w-screen mx-auto py-4 px-13 mt-5 mb-5">Service</section>
+    <!--Our Service-->
+    <section class="w-screen mx-auto py-4 px-13 mt-5 mb-5">
+      <div>
+        <h2 class="font-bold text-xl flex-grow">
+          Service <span class="text-purple-500">Kategori</span>
+        </h2>
+      </div>
 
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-20 mt-5 mb-5">
+        <button
+          class="flex flex-col items-center border border-gray-200 hover:border-purple-400 rounded-lg py-10 shadow-md"
+        >
+          <i
+            class="fas fa-wrench fa-xl text-purple-500 hover:text-purple-800 mb-2 mt-4"
+          ></i>
+          <p class="mt-2">Service</p>
+        </button>
+
+        <button
+          class="flex flex-col items-center border border-gray-200 hover:border-purple-400 rounded-lg py-10 shadow-md"
+        >
+          <i
+            class="fas fa-computer fa-xl text-purple-500 hover:text-purple-800 mb-2 mt-4"
+          ></i>
+          <p class="mt-2">Rakit PC</p>
+        </button>
+
+        <button
+          class="flex flex-col items-center border border-gray-200 hover:border-purple-400 rounded-lg py-10 shadow-md"
+        >
+          <i
+            class="fas fa-house-chimney fa-xl text-purple-500 hover:text-purple-800 mb-2 mt-4"
+          ></i>
+          <p class="mt-2">Home Service</p>
+        </button>
+
+        <button
+          class="flex flex-col items-center border border-gray-200 hover:border-purple-400 rounded-lg py-10 shadow-md"
+        >
+          <i
+            class="fas fa-cart-shopping fa-xl text-purple-500 hover:text-purple-800 mb-2 mt-4"
+          ></i>
+          <p class="mt-2">Hardware PC</p>
+        </button>
+      </div>
+    </section>
+
+    <!--Contact Us-->
     <section class="w-screen mx-auto py-4 px-13 mt-5 mb-5">Contact Us</section>
 
+    <!--Achievement-->
     <section class="w-screen mx-auto py-4 px-13 mt-5 mb-5">
       Our Achievement
     </section>
 
+    <!--Testimoni-->
     <section class="w-screen mx-auto py-4 px-13 mt-5 mb-5">Testimoni</section>
 
+    <!--Footer-->
     <section class="w-screen mx-auto py-4 px-13 mt-5 mb-5">Footer</section>
   </body>
 </html>
