@@ -14,11 +14,13 @@
     <!--Nav Bar-->
     <section class="w-screen mx-auto px-4 bg-white z-20" id="navigation">
       <nav class="flex flex-wrap p-6 justify-between">
-        <div class="flex flex-shrink-0 mr-6">
-          <i class="fa-solid fa-laptop text-purple-500"></i>
-          <p class="ml-5 font-bold">
-            U Broke it <span class="text-purple-500">We Fix it</span>
-          </p>
+        <div>
+          <div class="flex items-center space-x-2">
+            <i class="fa-solid fa-laptop text-purple-500 text-xl"></i>
+            <span class="font-bold text-lg"
+              >U Broke it <span class="text-purple-500">We Fix it</span></span
+            >
+          </div>
         </div>
       </nav>
     </section>
@@ -161,7 +163,7 @@
     </section>
 
     <!--Our Service-->
-    <section class="w-screen mx-auto py-4 px-13 mt-5 mb-5">
+    <section class="w-screen mx-auto py-4 px-13 mt-5 mb-5" id="service">
       <div>
         <h2 class="font-bold text-2xl flex-grow mb-5">
           Service <span class="text-purple-500">Kategori</span>
@@ -441,6 +443,109 @@
     </section>
 
     <!--Footer-->
-    <section class="w-screen mx-auto py-4 px-13 mt-5 mb-5">Footer</section>
+    <footer class="bg-gray-900 text-white px-10 py-10">
+      <div class="grid grid-cols-5 gap-8 border-b border-gray-700 pb-10">
+        <!-- Logo & Brand -->
+        <div>
+          <div class="flex items-center space-x-2 mb-4">
+            <i class="fa-solid fa-laptop text-purple-500 text-xl"></i>
+            <span class="font-bold text-lg"
+              >U Broke it <span class="text-purple-500">We Fix it</span></span
+            >
+          </div>
+        </div>
+
+        <!-- Categories -->
+        <div>
+          <h3 class="font-semibold mb-4">Categories</h3>
+          <ul class="space-y-2 text-sm text-gray-300">
+            <li class="hover:text-purple-500">
+              <a href="#service">Service</a>
+            </li>
+            <li class="hover:text-purple-500">
+              <a href="#service">Rakit PC</a>
+            </li>
+            <li class="hover:text-purple-500">
+              <a href="#service">Home Service</a>
+            </li>
+            <li class="hover:text-purple-500">
+              <a href="#service">Hardware PC</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Resources -->
+        <div>
+          <h3 class="font-semibold mb-4">Resources</h3>
+          <ul class="space-y-2 text-sm text-gray-300">
+            <li class="hover:text-purple-500"><a href="#">User guides</a></li>
+            <li class="hover:text-purple-500"><a href="#">Help Center</a></li>
+            <li class="hover:text-purple-500"><a href="#">Partners</a></li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <div>
+          <h3 class="font-semibold mb-4">Company</h3>
+          <ul class="space-y-2 text-sm text-gray-300">
+            <li class="hover:text-purple-500">
+              <a href="#about">Tentang Kami</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Subscribe -->
+        <div>
+          <h3 class="font-semibold text-purple-400 mb-1">Hubungi kami</h3>
+          <p class="text-sm text-gray-300 mb-4">
+            Untuk pengumuman produk dan wawasan eksklusif
+          </p>
+          <form class="flex">
+            <div class="flex items-center bg-gray-800 rounded-l px-3 py-2">
+              <i class="fa-regular fa-envelope text-white"></i>
+            </div>
+            <input
+              type="email"
+              placeholder="Input your email"
+              class="bg-gray-800 text-sm text-white px-2 py-2 w-full outline-none"
+            />
+            <button
+              type="submit"
+              class="bg-purple-500 hover:bg-purple-800 text-white px-4 py-2 text-sm rounded-r"
+            >
+              Kirim
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div
+        class="mt-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400"
+      >
+        <div class="mb-4 md:mb-0">
+          <select
+            class="bg-gray-800 text-white px-3 py-1 rounded border border-gray-700"
+          >
+            <option>Indonesia</option>
+          </select>
+        </div>
+        <div>© 2025 U Broke It, We Fix It. All rights reserved.</div>
+        <div class="flex space-x-4 mt-4 md:mt-0 text-xl">
+          <a href="#"
+            ><i class="fab fa-x-twitter text-white hover:text-purple-500"></i
+          ></a>
+          <a href="#"
+            ><i class="fab fa-facebook-f text-white hover:text-purple-500"></i
+          ></a>
+          <a href="#"
+            ><i class="fab fa-instagram text-white hover:text-purple-500"></i
+          ></a>
+          <a href="#"
+            ><i class="fab fa-youtube text-white hover:text-purple-500"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
